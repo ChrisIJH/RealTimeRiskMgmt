@@ -8,6 +8,7 @@ This project consists of 2 different jobs to implement of risk management by fin
 System
 ------
 - Google Cloud Service: 
+
 .. - Master node and workers for Apache Spark.
 .. - Name/Secondary node, Data nodes
 - iPython : For interactive analytics
