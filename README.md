@@ -19,10 +19,21 @@ System
 - iPython : For interactive analytics
   - Setup with Pyspark module
   - Setup for remote access to server
+- Apache Hadoop
+- Apache Spark
+
 
 Software Packages
 -----------------
-
+- Data Collecting Module
+  - TickDataReadWrite.java : Jave file for data collecting and write them to Apache Hadoop Ditributed File System.
+  - ReadTickData.jar : Jar package from TickDataReadWrite.java
+    - Usage: hadoop jar com.cijhwang.hadoop.TickDataReadWrite [ 0: 10 day 5 min data, 1: intra day 1 min data]
+  - You may want to create crontab for automatic operations for data collecting.
+- Computing Module
+  - GetVar.py : Python file for computing Value-At-Risk of Portfolio using Apache Spark Python API.
+- sample file
+  - sp500: Ticker list
 
 
 
