@@ -10,7 +10,7 @@ System
 - Google Cloud Service: 
 
 ..- Master node and workers for Apache Spark.
-.. - Name/Secondary node, Data nodes
+..- Name/Secondary node, Data nodes
 - iPython : For interactive analytics
 .. - Setup with Pyspark module
 .. - Setup for remote access to server
