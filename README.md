@@ -30,7 +30,7 @@ Software Packages
   - ReadTickData.jar : Jar package from TickDataReadWrite.java
     - Usage:
 
-`hadoop jar com.cijhwang.hadoop.TickDataReadWrite [ 0: 10 day 5 min data, 1: intra day 1 min data]`
+    `hadoop jar com.cijhwang.hadoop.TickDataReadWrite [ 0: 10 day 5 min data, 1: intra day 1 min data]`
   - You may want to create crontab for automatic operations for data collecting.
 - Computing Module
   - GetVar.py : Python file for computing Value-At-Risk of Portfolio using Apache Spark Python API.
